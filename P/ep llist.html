@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #anime-episode-list {
+        user-select: none;
+        background-color: #212121;
+    }
+    
+    #anime-episode-list #anime-episode-option {
+        padding: .5rem 1rem;
+        display: flex;
+        background-color: #303030;
+        justify-content: space-between;
+        border-bottom: 2px solid #ededed;
+    }
+    
+    #anime-episode-list #ael-lists {
+        padding: 1rem;
+    }
+    
+    #anime-episode-list #ael-lists ul li {
+        display: inline-block;
+        background-color: aqua;
+        min-width: 2.3rem;
+        padding: .3rem;
+        margin: .2rem;
+        border-radius: .2rem;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    #anime-episode-list #ael-lists ul li:hover {
+        background-color: rgb(11, 157, 157);
+    }
+    
+    #ael-lang-section span {
+        border-radius: .3rem;
+        border: 1px solid rgb(220, 150, 21);
+        display: inline-block;
+        padding: .3rem;
+        color: #ededed;
+        cursor: pointer;
+        /* pointer-events: painted; */
+        /* margin: .2rem; */
+    }
+    
+    .els-active {
+        background-color: rgb(220, 150, 21);
+        border-radius: .3rem;
+    }
+    
+    .ael-active {
+        background-color: #3333ed;
+    }
+    
+    #ael-section,
+    #ael-section span {
+        text-decoration: none;
+        padding: .3rem;
+        border-radius: .3rem;
+        color: #ededed;
+    }
+</style>
+
+<body>
+    <div id="anime-episode-list">
+        <div id="anime-episode-option">
+            <div id="ael-section">
+                <span class="ael-active">1-200</span>
+                <span>201-400</span>
+            </div>
+            <div id="ael-search">
+                thi ts vut jyh3 rgtyfy dqv e6 rt6w quu tgusb tgat nabt b8t tg7s 7s b8t gonnal
+                <input type="text">
+            </div>
+            <div id="ael-lang-section">
+                <span id="el-sub" class="els-active">SUB</span>
+                <span id="el-dub">DUB</span>
+            </div>
+        </div>
+
+        <div id="ael-lists">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>9999</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

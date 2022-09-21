@@ -1,0 +1,13 @@
+Preferences
+	Theme <Dark/Light/Auto>
+	Text font size <0.5x-3x>
+	Show search suggestation <On/Off>
+	Default Audio <>
+	Default anime name <>
+	Show slide bar <On/On click/ On hover>
+	Show trilor in hover anime <On/Off/For Upcomming only>
+	Help <>
+	Load comment on click <On/Off>
+	Keybord shortcuts < <-> > 
+	Results in home page < <-> >
+	Anime list style <List/Card/Middium list>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 192 192" style="enable-background:new 0 0 192 192;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#313E4F;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:#313E4F;stroke:#313E4F;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:#F9C478;stroke:#F9C478;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:#60BCEA;stroke:#60BCEA;stroke-width:3;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#313E4F;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g id="front_edge">
+	<g id="Credit_Card">
+		<path class="st0" d="M24.9,62.2l96.7-25.6c2.6-0.7,5.2,0.9,5.9,3.4l16,60.5c0.7,2.6-0.9,5.2-3.4,5.9L43.4,132
+			c-2.6,0.7-5.2-0.9-5.9-3.4l-16-60.5C20.8,65.6,22.3,62.9,24.9,62.2z"/>
+		
+			<rect x="24.1" y="62.1" transform="matrix(0.9667 -0.2558 0.2558 0.9667 -14.9733 22.3603)" class="st1" width="108.8" height="13.4"/>
+		<path class="st0" d="M69.6,73.4H162c4.8,0,8.6,3.9,8.6,8.6v54.9c0,4.8-3.9,8.6-8.6,8.6H69.6c-4.8,0-8.6-3.9-8.6-8.6V82
+			C61,77.2,64.8,73.4,69.6,73.4z"/>
+		<path class="st2" d="M65.8,73.4h100c2.7,0,4.8,2.2,4.8,4.8v62.5c0,2.7-2.2,4.8-4.8,4.8h-100c-2.7,0-4.8-2.2-4.8-4.8V78.2
+			C61,75.5,63.1,73.4,65.8,73.4z"/>
+		<rect x="73.9" y="104" class="st3" width="19.8" height="14.8"/>
+		<line class="st4" x1="105.1" y1="130.4" x2="154.7" y2="130.4"/>
+		<line class="st4" x1="73.8" y1="130.4" x2="95.5" y2="130.4"/>
+		<circle class="st3" cx="135.3" cy="97.4" r="8.8"/>
+		<circle class="st3" cx="148.7" cy="97.4" r="8.8"/>
+	</g>
+</g>
+</svg>

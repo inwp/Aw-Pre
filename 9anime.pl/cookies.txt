@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+9anime.pl	TRUE	/	FALSE	1999999999	session	zWzawMFBTwrWgYkIQvHprhc1ZLk62L9OOTwK93Sk
+9anime.pl	TRUE	/	FALSE	1999999999	samesite	lax
+static.bunnycdn.ru	TRUE	/	FALSE	1999999999	cf_use_ob	0
+

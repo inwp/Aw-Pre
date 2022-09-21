@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 192 192" style="enable-background:new 0 0 192 192;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#313E4F;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:#F9C478;stroke:#F9C478;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#313E4F;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:#FC8DC8;stroke:#FC8DC8;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g id="front_edge">
+	<circle class="st0" cx="85.9" cy="105.7" r="65.3"/>
+	<circle class="st0" cx="85.9" cy="105.7" r="47.9"/>
+	<ellipse class="st1" cx="86.1" cy="105.7" rx="31.2" ry="31.1"/>
+	<polygon class="st2" points="151.1,21.4 151.1,41.8 171.6,41.8 147.3,66.1 126.8,66.1 126.8,45.6 	"/>
+	<line class="st2" x1="126.7" y1="66.1" x2="87.6" y2="105"/>
+	<path class="st3" d="M151.1,21.4v20.4h20.5l-24.3,24.2h-19.3c-0.7,0-1.2-0.5-1.2-1.2c0,0,0,0,0,0V45.6L151.1,21.4z"/>
+</g>
+</svg>

@@ -1,0 +1,24 @@
+{
+        "short_name": "9Anime",
+        "name": "9Anime",
+        "description": "9Anime",
+        "icons": [
+        {
+            "src": "https://9anime.pl/assets/sites/9anime/icons/android-chrome-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://9anime.pl/assets/sites/9anime/icons/android-chrome-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        }],
+        "start_url": "/home?source=pwa",
+        "background_color": "#222",
+        "theme_color": "#222",
+        "display": "standalone",
+        "orientation": "any",
+        "scope": "/"
+    }

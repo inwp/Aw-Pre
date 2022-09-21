@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 192 192" style="enable-background:new 0 0 192 192;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#313E4F;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:#F9C478;stroke:#F9C478;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#313E4F;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:#FC8DC8;stroke:#FC8DC8;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g id="front_edge">
+	<g id="Back_Office_Operations">
+		<polyline class="st0" points="43.6,56.2 50.3,22.6 162.2,45.5 153.5,98.4 		"/>
+		<polyline class="st1" points="34.5,78.3 34.5,51.5 149.1,51.5 149.1,136.5 		"/>
+		<line class="st2" x1="49.5" y1="63.3" x2="134.1" y2="63.3"/>
+		<path class="st0" d="M151.2,170H35.6c-5,0-9-4-9-9V83.3c0-2.2,1.8-4,4-4h32.8c1.2,0,2.4,0.6,3.2,1.6l10.1,13.4
+			c1.9,2.4,4.7,3.9,7.8,3.9h67.1c4.8,0,8.7,3.9,8.7,8.7V161C160.2,166,156.2,170,151.2,170z"/>
+		<rect x="97" y="131.3" class="st3" width="50.6" height="22.1"/>
+		<line class="st2" x1="36.5" y1="89.1" x2="57.4" y2="89.1"/>
+	</g>
+	<line class="st2" x1="81.9" y1="75.6" x2="134.1" y2="75.6"/>
+</g>
+</svg>

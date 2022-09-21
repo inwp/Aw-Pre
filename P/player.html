@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <style>
+        .toggle-switch {
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        .toggle-switch-switch {
+            display: inline-block;
+            background: #b5b5b5;
+            border-radius: 16px;
+            width: 38px;
+            height: 20px;
+            position: relative;
+            vertical-align: middle;
+            transition: background 0.25s;
+        }
+        
+        .toggle-switch-switch:before,
+        .toggle-switch-switch:after {
+            content: "";
+        }
+        
+        .toggle-switch-switch:before {
+            display: block;
+            background: #f1f1f1;
+            border-style: none;
+            border-radius: 50%;
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            transition: left 0.25s;
+        }
+        
+        .toggle-switch-checkbox:checked+.toggle-switch-switch {
+            background: #3333ff;
+        }
+        
+        .toggle-switch-checkbox:checked+.toggle-switch-switch:before {
+            left: 20px;
+        }
+        
+        .toggle-switch-checkbox {
+            position: absolute;
+            visibility: hidden;
+        }
+    </style>
+    <style>
+        #controls {
+            display: flex;
+            line-height: 45px;
+            justify-content: space-between;
+            background-color: #08f000;
+        }
+        
+        .fa,
+        .fa-solid,
+        .fas,
+        .fa-regular {
+            color: red;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container" id="watch-page">
+        <div id="player-wrapper">
+            <div id="player-container">
+                <iframe src="https://goload.pro/streaming.php?id=MTg4NTY1&title=Wan+Jie+Xian+Zong+5th+Season&typesub=SUB&sub=&cover=Y292ZXIvd2FuLWppZS14aWFuLXpvbmctNXRoLXNlYXNvbi5wbmc=" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
+            </div>
+            <div id="controls">
+                <div id="server" class="controlers"><i class="fa fa-server"></i><select name="server" id="select-server">
+                    <option value="Normal">Normal</option>
+                </select></div>
+                <div id="prev-ep" class="controlers"><i class="fa-solid fa-backward"></i><span class="control-lable">Prev</span></div>
+                <div id="next-ep" class="controlers"><i class="fa-solid fa-forward"></i><span class="control-lable">Next</span></div>
+                <div id="show-anime-details" class="controlers"><i class="fa-solid fa-square"></i><span class="control-lable">Anime</span></div>
+                <div id="expand" class="controlers"><i class="fa fa-expand"></i><span class="control-lable">Expand</span></div>
+                <div id="reaction" class="controlers"><i class="fa-regular fa-thumbs-up"></i><span class="control-lable">React</span></div>
+                <div id="bookmark" class="controlers"><i class="fa-regular fa-bookmark"></i><span class="control-lable">Add to list</span></div>
+                <div id="report-ep" class="controlers"><i class="fa-regular fa-flag"></i><span class="control-lable">Report</span></div>
+                <div id="auto-next" class="controlers"><label class="toggle-switch"><input class="toggle-switch-checkbox" type="checkbox" checked><div class="toggle-switch-switch"></div></label><span class="control-lable">Auto Next</span></div>
+                <div id="auto-play" class="controlers"><label class="toggle-switch"><input class="toggle-switch-checkbox" type="checkbox" checked><div class="toggle-switch-switch"></div></label><span class="control-lable">Auto Play</span></div>
+                <div id="follow" class="controlers"><i class="fa fa-circle-plus"></i><span class="control-lable">Follow</span></div>
+                <div id="focus" class="controlers"><i class="fa-solid fa-lightbulb"></i><span class="control-lable">Focus</span></div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
